@@ -1,7 +1,6 @@
 CMakeFiles/final_project_tests.dir/src/token.cpp.o: \
- /home/nmeshal/326/project-NisaMeshal/src/token.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/unordered_map \
- /usr/include/c++/11/type_traits \
+ /home/nmeshal/MyPL-Compiler/src/token.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/11/unordered_map /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -54,8 +53,8 @@ CMakeFiles/final_project_tests.dir/src/token.cpp.o: \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/nmeshal/326/project-NisaMeshal/src/token.h \
- /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
+ /home/nmeshal/MyPL-Compiler/src/token.h /usr/include/c++/11/string \
+ /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
  /usr/include/wchar.h \

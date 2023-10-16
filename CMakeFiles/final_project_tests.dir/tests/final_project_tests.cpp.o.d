@@ -1,5 +1,5 @@
 CMakeFiles/final_project_tests.dir/tests/final_project_tests.cpp.o: \
- /home/nmeshal/326/project-NisaMeshal/tests/final_project_tests.cpp \
+ /home/nmeshal/MyPL-Compiler/tests/final_project_tests.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -53,6 +53,7 @@ CMakeFiles/final_project_tests.dir/tests/final_project_tests.cpp.o: \
  /usr/include/c++/11/bits/concept_check.h \
  /usr/include/c++/11/debug/assertions.h \
  /usr/include/c++/11/bits/stl_iterator.h \
+ /usr/include/c++/11/bits/stl_construct.h \
  /usr/include/c++/11/debug/debug.h \
  /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -118,7 +119,6 @@ CMakeFiles/final_project_tests.dir/tests/final_project_tests.cpp.o: \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/initializer_list /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/stl_construct.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/basic_string.h \
@@ -287,22 +287,22 @@ CMakeFiles/final_project_tests.dir/tests/final_project_tests.cpp.o: \
  /usr/include/gtest/gtest-test-part.h /usr/include/gtest/gtest_prod.h \
  /usr/include/gtest/gtest-typed-test.h \
  /usr/include/gtest/gtest_pred_impl.h \
- /home/nmeshal/326/project-NisaMeshal/src/mypl_exception.h \
- /home/nmeshal/326/project-NisaMeshal/src/simple_parser.h \
- /home/nmeshal/326/project-NisaMeshal/src/mypl_exception.h \
- /home/nmeshal/326/project-NisaMeshal/src/lexer.h \
- /home/nmeshal/326/project-NisaMeshal/src/token.h \
- /home/nmeshal/326/project-NisaMeshal/src/lexer.h \
- /home/nmeshal/326/project-NisaMeshal/src/ast_parser.h \
- /home/nmeshal/326/project-NisaMeshal/src/ast.h \
- /home/nmeshal/326/project-NisaMeshal/src/vm.h /usr/include/c++/11/stack \
+ /home/nmeshal/MyPL-Compiler/src/mypl_exception.h \
+ /home/nmeshal/MyPL-Compiler/src/simple_parser.h \
+ /home/nmeshal/MyPL-Compiler/src/mypl_exception.h \
+ /home/nmeshal/MyPL-Compiler/src/lexer.h \
+ /home/nmeshal/MyPL-Compiler/src/token.h \
+ /home/nmeshal/MyPL-Compiler/src/lexer.h \
+ /home/nmeshal/MyPL-Compiler/src/ast_parser.h \
+ /home/nmeshal/MyPL-Compiler/src/ast.h \
+ /home/nmeshal/MyPL-Compiler/src/vm.h /usr/include/c++/11/stack \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_stack.h \
- /home/nmeshal/326/project-NisaMeshal/src/vm_instr.h \
- /home/nmeshal/326/project-NisaMeshal/src/op_code.h \
- /home/nmeshal/326/project-NisaMeshal/src/vm_frame.h \
- /home/nmeshal/326/project-NisaMeshal/src/code_generator.h \
- /home/nmeshal/326/project-NisaMeshal/src/var_table.h \
- /home/nmeshal/326/project-NisaMeshal/src/vm.h \
- /home/nmeshal/326/project-NisaMeshal/src/semantic_checker.h \
- /home/nmeshal/326/project-NisaMeshal/src/symbol_table.h
+ /home/nmeshal/MyPL-Compiler/src/vm_instr.h \
+ /home/nmeshal/MyPL-Compiler/src/op_code.h \
+ /home/nmeshal/MyPL-Compiler/src/vm_frame.h \
+ /home/nmeshal/MyPL-Compiler/src/code_generator.h \
+ /home/nmeshal/MyPL-Compiler/src/var_table.h \
+ /home/nmeshal/MyPL-Compiler/src/vm.h \
+ /home/nmeshal/MyPL-Compiler/src/semantic_checker.h \
+ /home/nmeshal/MyPL-Compiler/src/symbol_table.h

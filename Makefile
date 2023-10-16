@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nmeshal/326/project-NisaMeshal
+CMAKE_SOURCE_DIR = /home/nmeshal/MyPL-Compiler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nmeshal/326/project-NisaMeshal
+CMAKE_BINARY_DIR = /home/nmeshal/MyPL-Compiler
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nmeshal/326/project-NisaMeshal/CMakeFiles /home/nmeshal/326/project-NisaMeshal//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nmeshal/MyPL-Compiler/CMakeFiles /home/nmeshal/MyPL-Compiler//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nmeshal/326/project-NisaMeshal/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nmeshal/MyPL-Compiler/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

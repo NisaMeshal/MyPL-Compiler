@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nmeshal/326/project-NisaMeshal/src
+CXX_INCLUDES = -I/home/nmeshal/MyPL-Compiler/src
 
 CXX_FLAGS = -O0 -g -std=gnu++20
 

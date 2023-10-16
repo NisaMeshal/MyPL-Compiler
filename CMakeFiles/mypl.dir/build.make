@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nmeshal/326/project-NisaMeshal
+CMAKE_SOURCE_DIR = /home/nmeshal/MyPL-Compiler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nmeshal/326/project-NisaMeshal
+CMAKE_BINARY_DIR = /home/nmeshal/MyPL-Compiler
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mypl.dir/depend.make
@@ -72,184 +72,184 @@ include CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/token.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/token.cpp.o: src/token.cpp
 CMakeFiles/mypl.dir/src/token.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mypl.dir/src/token.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/token.cpp.o -MF CMakeFiles/mypl.dir/src/token.cpp.o.d -o CMakeFiles/mypl.dir/src/token.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mypl.dir/src/token.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/token.cpp.o -MF CMakeFiles/mypl.dir/src/token.cpp.o.d -o CMakeFiles/mypl.dir/src/token.cpp.o -c /home/nmeshal/MyPL-Compiler/src/token.cpp
 
 CMakeFiles/mypl.dir/src/token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/token.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/token.cpp > CMakeFiles/mypl.dir/src/token.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/token.cpp > CMakeFiles/mypl.dir/src/token.cpp.i
 
 CMakeFiles/mypl.dir/src/token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/token.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/token.cpp -o CMakeFiles/mypl.dir/src/token.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/token.cpp -o CMakeFiles/mypl.dir/src/token.cpp.s
 
 CMakeFiles/mypl.dir/src/mypl_exception.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/mypl_exception.cpp.o: src/mypl_exception.cpp
 CMakeFiles/mypl.dir/src/mypl_exception.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mypl.dir/src/mypl_exception.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/mypl_exception.cpp.o -MF CMakeFiles/mypl.dir/src/mypl_exception.cpp.o.d -o CMakeFiles/mypl.dir/src/mypl_exception.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/mypl_exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mypl.dir/src/mypl_exception.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/mypl_exception.cpp.o -MF CMakeFiles/mypl.dir/src/mypl_exception.cpp.o.d -o CMakeFiles/mypl.dir/src/mypl_exception.cpp.o -c /home/nmeshal/MyPL-Compiler/src/mypl_exception.cpp
 
 CMakeFiles/mypl.dir/src/mypl_exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/mypl_exception.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/mypl_exception.cpp > CMakeFiles/mypl.dir/src/mypl_exception.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/mypl_exception.cpp > CMakeFiles/mypl.dir/src/mypl_exception.cpp.i
 
 CMakeFiles/mypl.dir/src/mypl_exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/mypl_exception.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/mypl_exception.cpp -o CMakeFiles/mypl.dir/src/mypl_exception.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/mypl_exception.cpp -o CMakeFiles/mypl.dir/src/mypl_exception.cpp.s
 
 CMakeFiles/mypl.dir/src/lexer.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/lexer.cpp.o: src/lexer.cpp
 CMakeFiles/mypl.dir/src/lexer.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mypl.dir/src/lexer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/lexer.cpp.o -MF CMakeFiles/mypl.dir/src/lexer.cpp.o.d -o CMakeFiles/mypl.dir/src/lexer.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mypl.dir/src/lexer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/lexer.cpp.o -MF CMakeFiles/mypl.dir/src/lexer.cpp.o.d -o CMakeFiles/mypl.dir/src/lexer.cpp.o -c /home/nmeshal/MyPL-Compiler/src/lexer.cpp
 
 CMakeFiles/mypl.dir/src/lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/lexer.cpp > CMakeFiles/mypl.dir/src/lexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/lexer.cpp > CMakeFiles/mypl.dir/src/lexer.cpp.i
 
 CMakeFiles/mypl.dir/src/lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/lexer.cpp -o CMakeFiles/mypl.dir/src/lexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/lexer.cpp -o CMakeFiles/mypl.dir/src/lexer.cpp.s
 
 CMakeFiles/mypl.dir/src/simple_parser.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/simple_parser.cpp.o: src/simple_parser.cpp
 CMakeFiles/mypl.dir/src/simple_parser.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mypl.dir/src/simple_parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/simple_parser.cpp.o -MF CMakeFiles/mypl.dir/src/simple_parser.cpp.o.d -o CMakeFiles/mypl.dir/src/simple_parser.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/simple_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mypl.dir/src/simple_parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/simple_parser.cpp.o -MF CMakeFiles/mypl.dir/src/simple_parser.cpp.o.d -o CMakeFiles/mypl.dir/src/simple_parser.cpp.o -c /home/nmeshal/MyPL-Compiler/src/simple_parser.cpp
 
 CMakeFiles/mypl.dir/src/simple_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/simple_parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/simple_parser.cpp > CMakeFiles/mypl.dir/src/simple_parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/simple_parser.cpp > CMakeFiles/mypl.dir/src/simple_parser.cpp.i
 
 CMakeFiles/mypl.dir/src/simple_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/simple_parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/simple_parser.cpp -o CMakeFiles/mypl.dir/src/simple_parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/simple_parser.cpp -o CMakeFiles/mypl.dir/src/simple_parser.cpp.s
 
 CMakeFiles/mypl.dir/src/ast_parser.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/ast_parser.cpp.o: src/ast_parser.cpp
 CMakeFiles/mypl.dir/src/ast_parser.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mypl.dir/src/ast_parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/ast_parser.cpp.o -MF CMakeFiles/mypl.dir/src/ast_parser.cpp.o.d -o CMakeFiles/mypl.dir/src/ast_parser.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/ast_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mypl.dir/src/ast_parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/ast_parser.cpp.o -MF CMakeFiles/mypl.dir/src/ast_parser.cpp.o.d -o CMakeFiles/mypl.dir/src/ast_parser.cpp.o -c /home/nmeshal/MyPL-Compiler/src/ast_parser.cpp
 
 CMakeFiles/mypl.dir/src/ast_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/ast_parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/ast_parser.cpp > CMakeFiles/mypl.dir/src/ast_parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/ast_parser.cpp > CMakeFiles/mypl.dir/src/ast_parser.cpp.i
 
 CMakeFiles/mypl.dir/src/ast_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/ast_parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/ast_parser.cpp -o CMakeFiles/mypl.dir/src/ast_parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/ast_parser.cpp -o CMakeFiles/mypl.dir/src/ast_parser.cpp.s
 
 CMakeFiles/mypl.dir/src/print_visitor.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/print_visitor.cpp.o: src/print_visitor.cpp
 CMakeFiles/mypl.dir/src/print_visitor.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mypl.dir/src/print_visitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/print_visitor.cpp.o -MF CMakeFiles/mypl.dir/src/print_visitor.cpp.o.d -o CMakeFiles/mypl.dir/src/print_visitor.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/print_visitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mypl.dir/src/print_visitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/print_visitor.cpp.o -MF CMakeFiles/mypl.dir/src/print_visitor.cpp.o.d -o CMakeFiles/mypl.dir/src/print_visitor.cpp.o -c /home/nmeshal/MyPL-Compiler/src/print_visitor.cpp
 
 CMakeFiles/mypl.dir/src/print_visitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/print_visitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/print_visitor.cpp > CMakeFiles/mypl.dir/src/print_visitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/print_visitor.cpp > CMakeFiles/mypl.dir/src/print_visitor.cpp.i
 
 CMakeFiles/mypl.dir/src/print_visitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/print_visitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/print_visitor.cpp -o CMakeFiles/mypl.dir/src/print_visitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/print_visitor.cpp -o CMakeFiles/mypl.dir/src/print_visitor.cpp.s
 
 CMakeFiles/mypl.dir/src/symbol_table.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/symbol_table.cpp.o: src/symbol_table.cpp
 CMakeFiles/mypl.dir/src/symbol_table.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mypl.dir/src/symbol_table.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/symbol_table.cpp.o -MF CMakeFiles/mypl.dir/src/symbol_table.cpp.o.d -o CMakeFiles/mypl.dir/src/symbol_table.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/symbol_table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mypl.dir/src/symbol_table.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/symbol_table.cpp.o -MF CMakeFiles/mypl.dir/src/symbol_table.cpp.o.d -o CMakeFiles/mypl.dir/src/symbol_table.cpp.o -c /home/nmeshal/MyPL-Compiler/src/symbol_table.cpp
 
 CMakeFiles/mypl.dir/src/symbol_table.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/symbol_table.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/symbol_table.cpp > CMakeFiles/mypl.dir/src/symbol_table.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/symbol_table.cpp > CMakeFiles/mypl.dir/src/symbol_table.cpp.i
 
 CMakeFiles/mypl.dir/src/symbol_table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/symbol_table.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/symbol_table.cpp -o CMakeFiles/mypl.dir/src/symbol_table.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/symbol_table.cpp -o CMakeFiles/mypl.dir/src/symbol_table.cpp.s
 
 CMakeFiles/mypl.dir/src/semantic_checker.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/semantic_checker.cpp.o: src/semantic_checker.cpp
 CMakeFiles/mypl.dir/src/semantic_checker.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mypl.dir/src/semantic_checker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/semantic_checker.cpp.o -MF CMakeFiles/mypl.dir/src/semantic_checker.cpp.o.d -o CMakeFiles/mypl.dir/src/semantic_checker.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/semantic_checker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mypl.dir/src/semantic_checker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/semantic_checker.cpp.o -MF CMakeFiles/mypl.dir/src/semantic_checker.cpp.o.d -o CMakeFiles/mypl.dir/src/semantic_checker.cpp.o -c /home/nmeshal/MyPL-Compiler/src/semantic_checker.cpp
 
 CMakeFiles/mypl.dir/src/semantic_checker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/semantic_checker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/semantic_checker.cpp > CMakeFiles/mypl.dir/src/semantic_checker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/semantic_checker.cpp > CMakeFiles/mypl.dir/src/semantic_checker.cpp.i
 
 CMakeFiles/mypl.dir/src/semantic_checker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/semantic_checker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/semantic_checker.cpp -o CMakeFiles/mypl.dir/src/semantic_checker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/semantic_checker.cpp -o CMakeFiles/mypl.dir/src/semantic_checker.cpp.s
 
 CMakeFiles/mypl.dir/src/vm_instr.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/vm_instr.cpp.o: src/vm_instr.cpp
 CMakeFiles/mypl.dir/src/vm_instr.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mypl.dir/src/vm_instr.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/vm_instr.cpp.o -MF CMakeFiles/mypl.dir/src/vm_instr.cpp.o.d -o CMakeFiles/mypl.dir/src/vm_instr.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/vm_instr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mypl.dir/src/vm_instr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/vm_instr.cpp.o -MF CMakeFiles/mypl.dir/src/vm_instr.cpp.o.d -o CMakeFiles/mypl.dir/src/vm_instr.cpp.o -c /home/nmeshal/MyPL-Compiler/src/vm_instr.cpp
 
 CMakeFiles/mypl.dir/src/vm_instr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/vm_instr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/vm_instr.cpp > CMakeFiles/mypl.dir/src/vm_instr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/vm_instr.cpp > CMakeFiles/mypl.dir/src/vm_instr.cpp.i
 
 CMakeFiles/mypl.dir/src/vm_instr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/vm_instr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/vm_instr.cpp -o CMakeFiles/mypl.dir/src/vm_instr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/vm_instr.cpp -o CMakeFiles/mypl.dir/src/vm_instr.cpp.s
 
 CMakeFiles/mypl.dir/src/vm.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/vm.cpp.o: src/vm.cpp
 CMakeFiles/mypl.dir/src/vm.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mypl.dir/src/vm.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/vm.cpp.o -MF CMakeFiles/mypl.dir/src/vm.cpp.o.d -o CMakeFiles/mypl.dir/src/vm.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/vm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mypl.dir/src/vm.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/vm.cpp.o -MF CMakeFiles/mypl.dir/src/vm.cpp.o.d -o CMakeFiles/mypl.dir/src/vm.cpp.o -c /home/nmeshal/MyPL-Compiler/src/vm.cpp
 
 CMakeFiles/mypl.dir/src/vm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/vm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/vm.cpp > CMakeFiles/mypl.dir/src/vm.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/vm.cpp > CMakeFiles/mypl.dir/src/vm.cpp.i
 
 CMakeFiles/mypl.dir/src/vm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/vm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/vm.cpp -o CMakeFiles/mypl.dir/src/vm.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/vm.cpp -o CMakeFiles/mypl.dir/src/vm.cpp.s
 
 CMakeFiles/mypl.dir/src/var_table.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/var_table.cpp.o: src/var_table.cpp
 CMakeFiles/mypl.dir/src/var_table.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mypl.dir/src/var_table.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/var_table.cpp.o -MF CMakeFiles/mypl.dir/src/var_table.cpp.o.d -o CMakeFiles/mypl.dir/src/var_table.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/var_table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mypl.dir/src/var_table.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/var_table.cpp.o -MF CMakeFiles/mypl.dir/src/var_table.cpp.o.d -o CMakeFiles/mypl.dir/src/var_table.cpp.o -c /home/nmeshal/MyPL-Compiler/src/var_table.cpp
 
 CMakeFiles/mypl.dir/src/var_table.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/var_table.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/var_table.cpp > CMakeFiles/mypl.dir/src/var_table.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/var_table.cpp > CMakeFiles/mypl.dir/src/var_table.cpp.i
 
 CMakeFiles/mypl.dir/src/var_table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/var_table.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/var_table.cpp -o CMakeFiles/mypl.dir/src/var_table.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/var_table.cpp -o CMakeFiles/mypl.dir/src/var_table.cpp.s
 
 CMakeFiles/mypl.dir/src/code_generator.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/code_generator.cpp.o: src/code_generator.cpp
 CMakeFiles/mypl.dir/src/code_generator.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mypl.dir/src/code_generator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/code_generator.cpp.o -MF CMakeFiles/mypl.dir/src/code_generator.cpp.o.d -o CMakeFiles/mypl.dir/src/code_generator.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/code_generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mypl.dir/src/code_generator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/code_generator.cpp.o -MF CMakeFiles/mypl.dir/src/code_generator.cpp.o.d -o CMakeFiles/mypl.dir/src/code_generator.cpp.o -c /home/nmeshal/MyPL-Compiler/src/code_generator.cpp
 
 CMakeFiles/mypl.dir/src/code_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/code_generator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/code_generator.cpp > CMakeFiles/mypl.dir/src/code_generator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/code_generator.cpp > CMakeFiles/mypl.dir/src/code_generator.cpp.i
 
 CMakeFiles/mypl.dir/src/code_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/code_generator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/code_generator.cpp -o CMakeFiles/mypl.dir/src/code_generator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/code_generator.cpp -o CMakeFiles/mypl.dir/src/code_generator.cpp.s
 
 CMakeFiles/mypl.dir/src/mypl.cpp.o: CMakeFiles/mypl.dir/flags.make
 CMakeFiles/mypl.dir/src/mypl.cpp.o: src/mypl.cpp
 CMakeFiles/mypl.dir/src/mypl.cpp.o: CMakeFiles/mypl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mypl.dir/src/mypl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/mypl.cpp.o -MF CMakeFiles/mypl.dir/src/mypl.cpp.o.d -o CMakeFiles/mypl.dir/src/mypl.cpp.o -c /home/nmeshal/326/project-NisaMeshal/src/mypl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mypl.dir/src/mypl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mypl.dir/src/mypl.cpp.o -MF CMakeFiles/mypl.dir/src/mypl.cpp.o.d -o CMakeFiles/mypl.dir/src/mypl.cpp.o -c /home/nmeshal/MyPL-Compiler/src/mypl.cpp
 
 CMakeFiles/mypl.dir/src/mypl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mypl.dir/src/mypl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/326/project-NisaMeshal/src/mypl.cpp > CMakeFiles/mypl.dir/src/mypl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nmeshal/MyPL-Compiler/src/mypl.cpp > CMakeFiles/mypl.dir/src/mypl.cpp.i
 
 CMakeFiles/mypl.dir/src/mypl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mypl.dir/src/mypl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/326/project-NisaMeshal/src/mypl.cpp -o CMakeFiles/mypl.dir/src/mypl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nmeshal/MyPL-Compiler/src/mypl.cpp -o CMakeFiles/mypl.dir/src/mypl.cpp.s
 
 # Object files for target mypl
 mypl_OBJECTS = \
@@ -285,7 +285,7 @@ mypl: CMakeFiles/mypl.dir/src/code_generator.cpp.o
 mypl: CMakeFiles/mypl.dir/src/mypl.cpp.o
 mypl: CMakeFiles/mypl.dir/build.make
 mypl: CMakeFiles/mypl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nmeshal/326/project-NisaMeshal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable mypl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nmeshal/MyPL-Compiler/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable mypl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mypl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +297,6 @@ CMakeFiles/mypl.dir/clean:
 .PHONY : CMakeFiles/mypl.dir/clean
 
 CMakeFiles/mypl.dir/depend:
-	cd /home/nmeshal/326/project-NisaMeshal && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nmeshal/326/project-NisaMeshal /home/nmeshal/326/project-NisaMeshal /home/nmeshal/326/project-NisaMeshal /home/nmeshal/326/project-NisaMeshal /home/nmeshal/326/project-NisaMeshal/CMakeFiles/mypl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nmeshal/MyPL-Compiler && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nmeshal/MyPL-Compiler /home/nmeshal/MyPL-Compiler /home/nmeshal/MyPL-Compiler /home/nmeshal/MyPL-Compiler /home/nmeshal/MyPL-Compiler/CMakeFiles/mypl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mypl.dir/depend
 
