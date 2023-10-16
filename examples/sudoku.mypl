@@ -1,0 +1,154 @@
+#sudoku!!!
+
+void grid_print (array int grid) {
+    print("    0   1   2    3   4   5    6   7   8  \n")
+    print("   ___ ___ ___  ___ ___ ___  ___ ___ ___\n")
+
+    for(int row = 0; row < 9; row = row + 1) {
+        print(row)
+        for(int col = 0; col < 9; col = col + 1) {
+            if((col == 3) or (col == 6)) {
+                print (" || ")
+            }
+            else {
+                print(" | ")
+            }
+            
+            if(grid[row][col] == null) {
+                print(".")
+            }
+            else {
+                print(grid[row][col])
+            }   
+        }
+        print(" |\n")
+
+        if((row == 2) or (row == 5)) {
+            print("  |===|===|===||===|===|===||===|===|===|\n")    
+        }
+        else {
+            print("  |---|---|---||---|---|---||---|---|---|\n")    
+        }
+    }    
+}
+
+void set_grid (array int grid) {
+    grid[0][3] = 8 
+    grid[0][4] = 3
+    grid[1][2] = 4
+    grid[1][6] = 5
+    grid[1][7] = 3
+    grid[1][8] = 1
+    grid[2][0] = 6
+    grid[2][1] = 1
+    grid[2][2] = 3
+    grid[2][6] = 8
+    grid[3][4] = 1
+    grid[3][8] = 2
+    grid[4][4] = 6
+    grid[4][7] = 8
+    grid[5][0] = 5
+    grid[5][2] = 1
+    grid[5][5] = 8
+    grid[5][7] = 7
+    grid[5][8] = 4
+    grid[6][1] = 4
+    grid[6][6] = 2
+    grid[6][8] = 8
+    grid[7][3] = 2
+    grid[7][5] = 4
+    grid[7][6] = 7
+    grid[7][8] = 3
+    grid[8][0] = 8
+    grid[8][3] = 1
+    grid[8][5] = 7
+    grid[8][7] = 9
+}
+
+void set_answers(array int grid) {
+    grid[0][0] = 2 grid[0][1] = 5 grid[0][2] = 7 grid[0][3] = 8 grid[0][4] = 3 grid[0][5] = 1 grid[0][6] = 6 grid[0][7] = 4 grid[0][8] = 9
+    grid[1][0] = 9 grid[1][1] = 8 grid[1][2] = 4 grid[1][3] = 6 grid[1][4] = 7 grid[1][5] = 2 grid[1][6] = 5 grid[1][7] = 3 grid[1][8] = 1
+    grid[2][0] = 6 grid[2][1] = 1 grid[2][2] = 3 grid[2][3] = 5 grid[2][4] = 4 grid[2][5] = 9 grid[2][6] = 8 grid[2][7] = 2 grid[2][8] = 7
+    grid[3][0] = 3 grid[3][1] = 7 grid[3][2] = 8 grid[3][3] = 4 grid[3][4] = 1 grid[3][5] = 5 grid[3][6] = 9 grid[3][7] = 6 grid[3][8] = 2
+    grid[4][0] = 4 grid[4][1] = 2 grid[4][2] = 9 grid[4][3] = 7 grid[4][4] = 6 grid[4][5] = 3 grid[4][6] = 1 grid[4][7] = 8 grid[4][8] = 5
+    grid[5][0] = 5 grid[5][1] = 6 grid[5][2] = 1 grid[5][3] = 9 grid[5][4] = 2 grid[5][5] = 8 grid[5][6] = 3 grid[5][7] = 7 grid[5][8] = 4
+    grid[6][0] = 7 grid[6][1] = 4 grid[6][2] = 5 grid[6][3] = 3 grid[6][4] = 9 grid[6][5] = 6 grid[6][6] = 2 grid[6][7] = 1 grid[6][8] = 8
+    grid[7][0] = 1 grid[7][1] = 9 grid[7][2] = 6 grid[7][3] = 2 grid[7][4] = 8 grid[7][5] = 4 grid[7][6] = 7 grid[7][7] = 5 grid[7][8] = 3
+    grid[8][0] = 8 grid[8][1] = 3 grid[8][2] = 2 grid[8][3] = 1 grid[8][4] = 5 grid[8][5] = 7 grid[8][6] = 4 grid[8][7] = 9 grid[8][8] = 6
+}
+
+int comapare_vals (array int a, array int ans) {
+    int errors = 0 
+
+    for (int row = 0; row < 9; row = row +1 ) {
+        for (int col = 0; col < 9; col = col + 1) {
+            if(a[row][col] != ans[row][col]) {
+                errors = errors + 1
+            }
+        }
+    }
+
+    return errors
+}
+
+void main() {
+    array int player = new int [9][9]
+    array int answer = new int [9][9]
+    char arr = ' '
+    int row = 0
+    int col = 0
+    int value = 0   
+    int errors = 0
+
+    set_grid(player)
+    set_answers(answer)
+
+    print("Welcome to sudoku! (❁´◡`❁)\n")
+    print("\n")
+    print("Here's how you play: \n") 
+    print("~You play on a 9x9 grid, you fill each row and column with values 1-9\n")
+    print("~Values can't repeat within rows or columns (╬▔皿▔)╯ \n")
+    print("~The whole grid contains 9, 3x3 grids too (duhh)\n")
+    print("~Values can't repeat within each small grid! (*/ω＼*) \n")
+    print("~Select cells with the following format: [row][column] e.g. 00 or 85\n")
+    print("~Press y to continue (^///^)\n")
+
+    string input = input()
+
+    if(input == "y") {
+        while(input != "e") {
+            grid_print(player)
+            print("Select grid location: ")
+            input = input()
+            
+            string temp = to_string(get(0, input))
+            row = to_int(temp)
+            temp = to_string(get(1, input))
+            col = to_int(temp)
+
+            print("Select value: ")
+            input = input()
+            value = to_int(input)
+
+            player[row][col] = value
+
+            print("[c] continue or [e] to exit: ")
+            input = input()
+        }
+    }
+
+    comapare_vals(player, answer)
+
+    print("\n")
+    print("Thanks for playing, human! ☆*: .｡. o(≧▽≦)o .｡.:*☆\n")
+    print("Total errors: ") 
+    print(errors)
+    print("\n")
+    if(errors <= 3) {
+        print("Not bad I guess... ¬_¬\n")
+    } elseif (errors < 6) {
+        print("OMG skill issue ○( ＾皿＾)っ Hehehe… l ratio\n")
+    } else {
+        print("This is probably not a game for you... ⊙﹏⊙∥\n")
+    }
+}

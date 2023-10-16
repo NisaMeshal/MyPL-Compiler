@@ -1,0 +1,4 @@
+/home/nmeshal/326/project-NisaMeshal/CMakeFiles/final_project_tests.dir
+/home/nmeshal/326/project-NisaMeshal/CMakeFiles/mypl.dir
+/home/nmeshal/326/project-NisaMeshal/CMakeFiles/edit_cache.dir
+/home/nmeshal/326/project-NisaMeshal/CMakeFiles/rebuild_cache.dir
